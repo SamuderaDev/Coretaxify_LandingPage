@@ -97,18 +97,22 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="navItem navBtns">
-                <button
+                <a
+                  href="https://coretaxify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="signInBtn"
-                  onClick={openLoginPopup} // Panggil fungsi untuk membuka login popup
                 >
                   Login
-                </button>
-                <button 
+                </a>
+                <a
+                  href="https://coretaxify.com/register"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="signUpBtn"
-                  onClick={openRegisterPopup} // Panggil fungsi untuk membuka register popup
                 >
                   Register
-                </button>
+                </a>
               </li>
             </ul>
 
